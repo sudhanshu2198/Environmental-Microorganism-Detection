@@ -41,7 +41,7 @@ if button:
         img=cv2.resize(img,(750,1000))
     else:
         title="Default Image"
-        idx=np.random.choice(range(9),1)[0]
+        idx=np.random.choice(range(15),1)[0]
         default_img_path=os.path.join(detection_img_dir,f"{idx}.png")
         img=Image.open(default_img_path)
         img=np.array(img)
