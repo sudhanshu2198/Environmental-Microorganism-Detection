@@ -3,7 +3,7 @@
 ## Background
 **In the aqueous tapestry that sustains life, the role of environmental microorganisms (EMs) in water takes center stage, especially when it comes to the paramount concern of public health. Every drop of water tells a story, and within it, microscopic actors play a crucial part.**
 
-![](https://github.com/sudhanshu2198/Environmental-Microorganism-Detection/blob/master/images/Micro.PNG)
+![](https://github.com/sudhanshu2198/Environmental-Microorganism-Detection/blob/master/Microorganism.gif)
 
 - Detecting these environmental microorganisms is not just a scientific endeavor but a vital step in safeguarding communities against waterborne threats.
  - From identifying potential pathogens that could jeopardize public health to ensuring the purity of our drinking water sources, the microscopic world within water holds the answers.
