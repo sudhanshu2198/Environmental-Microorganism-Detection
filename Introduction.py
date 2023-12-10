@@ -6,10 +6,12 @@ import numpy as np
 
 
 root_dir=os.path.dirname(os.path.abspath(__file__))
-homepage_img_dir=os.path.join(root_dir,"images","home_page")
+img_pth=os.path.join(root_dir,"images","Micro.PNG")
+img=Image.open(img_pth)
 
 st.title("Microorganism Detection in Water")
 st.subheader("Project Description")
+st.image(img)
 st.write("In the aqueous tapestry that sustains life, the role of environmental microorganisms (EMs) in water takes \
           center stage, especially when it comes to the paramount concern of public health. Every drop of water tells a \
           story, and within it, microscopic actors play a crucial part. Detecting these environmental microorganisms is \
