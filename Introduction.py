@@ -18,7 +18,7 @@ st.write("In the aqueous tapestry that sustains life, the role of environmental 
           the microscopic world within water holds the answers. By delving into the unseen realms, we equip ourselves with the \
           knowledge needed to protect the most fundamental resource we all share—clean and safe water for the well-being of everyone.\
           The detection of environmental microorganism indicators is essential for assessing the degree of pollution. Faster-RCNN, \
-          YOLOv3, SSD and RetinaNet object detection algorithm are utilized are detecting microorganism in water ")
+          YOLOv3, SSD and RetinaNet object detection algorithm are utilized are detecting microorganism in water. ")
 
 st.subheader("Dataset")
 st.write("The overall dataset is made up of the following two datasets:")
