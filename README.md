@@ -71,22 +71,36 @@ Pytorch, Torchvision, Ultralytics, OpenCV, Numpy, Streamlit, Git
 ```
 
 ## Water Contamination Determination
+
 **Accuracy Plot**
+
 ![](https://github.com/sudhanshu2198/Environmental-Microorganism-Detection/blob/master/Srastog/EfficientNet/Accuracy_plot.PNG)
+
 **Loss Plot**
+
 ![](https://github.com/sudhanshu2198/Environmental-Microorganism-Detection/blob/master/Srastog/EfficientNet/Loss_plot.PNG)
+
 **Confusion Matrix**
+
 ![](https://github.com/sudhanshu2198/Environmental-Microorganism-Detection/blob/master/Srastog/EfficientNet/Classification_report.PNG)
+
 **Inference**
+
 ![](https://github.com/sudhanshu2198/Environmental-Microorganism-Detection/blob/master/images/contamin.PNG)
 
 ## Micoorganism Detection
+
 **Metrics**
+
 ![](https://github.com/sudhanshu2198/Environmental-Microorganism-Detection/blob/master/Srastog/FasterRCNN/inference_result.PNG)
+
 **Map @ iou=0.50**
+
 ![](https://github.com/sudhanshu2198/Environmental-Microorganism-Detection/blob/master/Srastog/FasterRCNN/map_table1.PNG)
 ![](https://github.com/sudhanshu2198/Environmental-Microorganism-Detection/blob/master/Srastog/FasterRCNN/map_table2.PNG)
+
 **Inference**
+
 ![](https://github.com/sudhanshu2198/Environmental-Microorganism-Detection/blob/master/Srastog/FasterRCNN/inference.PNG)
 
 ## Run Webapp Locally
@@ -114,13 +128,3 @@ Run Locally
 ```bash
   streamlit run Introduction.py
 ```
-## Acknowledgements
-
-"""
-model=get_model()
-if torch.cuda.device_count() > 1:
-print(f"{torch.cuda.device_count()} GPUs!")
-model = nn.DataParallel(model)
-model.to(device)
-"""
-
