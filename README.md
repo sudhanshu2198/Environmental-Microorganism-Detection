@@ -1,7 +1,7 @@
 # Microorganism Detection in Water
 
 ## Background
-**In the aqueous tapestry that sustains life, the role of environmental microorganisms (EMs) in water takes center stage, especially when it comes to the paramount concern of public health. Every drop of water tells a story, and within it, microscopic actors play a crucial part.**
+**In the aqueous environment that sustains life, the role of environmental microorganisms (EMs) in water takes center stage, especially when it comes to the paramount concern of public health. Every drop of water tells a story, and within it, microscopic actors play a crucial part.**
 
 ![](https://github.com/sudhanshu2198/Environmental-Microorganism-Detection/blob/master/Microorganism.gif)
 
