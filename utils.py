@@ -1,6 +1,7 @@
 import numpy as np
 import cv2
 import os
+import streamlit as st
 import torch
 import torch.nn as nn
 import torchvision
@@ -8,7 +9,7 @@ from torchvision.models.detection.ssd import SSDHead,det_utils
 from torchvision.models.detection import ssdlite320_mobilenet_v3_large
 from torchvision.models import efficientnet_b0
 import torchvision.transforms.functional as tf
-import streamlit as st
+
 
 root_dir=os.path.dirname(os.path.abspath(__file__))
 weights_dir=os.path.join(root_dir,"weights")
