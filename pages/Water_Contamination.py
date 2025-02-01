@@ -8,7 +8,7 @@ import torchvision
 from utils import classify_img,get_contamination_model
 
 st.title("Water Contaminated Determination")
-st.warning("Multiple Default Images are Provided to view model working. Just Click Detect or upload your img")
+st.success("Multiple Default Images are Provided to view model working. Just Click Detect or upload your img")
 classes=["Not-Contaminated","Contaminated"]
 
 model=get_contamination_model()
