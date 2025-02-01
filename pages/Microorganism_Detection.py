@@ -12,6 +12,7 @@ from utils import get_detection_model,detection_img
 
 
 st.title("Microorganism Object Detection")
+st.success("Multiple Default Images are Provided to view model working. Just Click Detect or upload your img")
 
 classes=['background','G001','G002','G003','G004','G005','G006','G007','G008',
          'G009','G010','G011','G012','G013','G014','G015','G016','G017','G018',
